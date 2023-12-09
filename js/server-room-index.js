@@ -15,7 +15,7 @@ function displayData(data) {
   data?.data.forEach((room, index) => {
     const content = `
               <div class="card fade-in appear">
-                  <a class="s-img" href="./contact.html">
+                  <a class="s-img" href="./pages/contact.html">
                       <img aria-label="room" src="./assets/img/room-${index + 1}.jpg" alt="${room.room_type}" />
                   </a>
                   <div class="card-content">
